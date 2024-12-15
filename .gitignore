@@ -1,0 +1,52 @@
+# 기본적으로 Git에서 무시할 파일들
+*.class
+*.log
+*.DS_Store
+*.swp
+*.iml
+*.hprof
+
+# Maven/Gradle 빌드 디렉터리
+/target/
+/out/
+/build/
+
+# IDE 설정 파일
+/.idea/
+/*.iml
+/.project
+/.classpath
+/.settings/
+/.vscode/
+/*.launch
+
+# 운영체제 관련 파일
+Thumbs.db
+*.DS_Store
+
+# 로그 파일
+*.log
+
+# 환경설정 파일 (로컬 환경 비밀 정보)
+application-*.yml
+application-*.properties
+*.env
+
+# Mac OS 특수 파일
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Linux Swap file
+*.swp
+
+# 기타
+!.mvn/wrapper/maven-wrapper.jar
+!.gradle/wrapper/gradle-wrapper.jar
